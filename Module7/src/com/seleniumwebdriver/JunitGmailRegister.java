@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 /*
  *  W.A.J.script to register your self in Gmail.
  */
-public class GmailRegister {
+public class JunitGmailRegister {
 	public static void main(String[] args) throws InterruptedException {
 //		System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
 //		WebDriver driver=new EdgeDriver();

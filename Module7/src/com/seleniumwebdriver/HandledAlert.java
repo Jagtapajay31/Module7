@@ -17,9 +17,7 @@ public class HandledAlert {
 		
 		
 		driver.findElement(By.name("cusid")).sendKeys("987");
-		
 		Thread.sleep(2000);
-		
 		driver.findElement(By.name("submit")).click();
 		Thread.sleep(2000);
 		
@@ -28,8 +26,6 @@ public class HandledAlert {
 		
 //		a1.dismiss();
 		a1.accept();
-		
-		
 		Thread.sleep(2000);
 		
 		Alert a2=driver.switchTo().alert();
@@ -37,5 +33,11 @@ public class HandledAlert {
 		a2.accept();
 		Thread.sleep(2000);
 		driver.close();
+		
+//		driver.switchTo().alert().accept();
+//		Thread.sleep(2000);
+//		driver.switchTo().alert().accept();
+//		Thread.sleep(2000);
+//		driver.close();
 	}
 }

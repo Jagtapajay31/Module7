@@ -7,14 +7,14 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 public class AssertClass {
-	@Ignore
+//	@Ignore
 	@Test
 	public void test1() {
 		int a=10, b=20;
 		Assert.assertTrue(a<b);
 		Assert.assertFalse(a>b);
 	}
-	@Ignore
+//	@Ignore
 	@Test
 	public void test2() {
 		int a=10, b=20;
@@ -24,7 +24,7 @@ public class AssertClass {
 		Assert.assertEquals(a,b);
 		Assert.assertNotEquals(s1,s2);
 	}
-	@Ignore
+//	@Ignore
 	@Test
 	public void test3() {
 		String s1="tops";
@@ -34,7 +34,7 @@ public class AssertClass {
 		Assert.assertSame(s1, s2);
 		Assert.assertNotSame(a, b);
 	}
-	@Ignore
+//	@Ignore
 	@Test
 	public void test4() {
 		String s1=null;
@@ -42,7 +42,7 @@ public class AssertClass {
 		Assert.assertNull(s1);
 		Assert.assertNotNull(s1);
 	}
-	@Ignore
+//	@Ignore
 	@Test
 	public void test5() {
 		int[] a= {1,2,3};

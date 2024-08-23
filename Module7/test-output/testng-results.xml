@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-23T15:06:10 IST" name="Default suite" finished-at="2024-08-23T15:06:29 IST" duration-ms="19208">
+    <groups>
+    </groups>
+    <test started-at="2024-08-23T15:06:10 IST" name="Default test" finished-at="2024-08-23T15:06:29 IST" duration-ms="19208">
+      <class name="com.seleniumwebdriver.TestNGFaceBookLogin">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:10 IST" name="before" finished-at="2024-08-23T15:06:16 IST" duration-ms="6346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="login()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:16 IST" name="login" finished-at="2024-08-23T15:06:23 IST" duration-ms="7167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="password()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:23 IST" name="password" finished-at="2024-08-23T15:06:24 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="username()[pri:1, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:24 IST" name="username" finished-at="2024-08-23T15:06:27 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:27 IST" name="after" finished-at="2024-08-23T15:06:29 IST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.seleniumwebdriver.TestNGFaceBookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-23T15:06:10 IST" name="Default suite" finished-at="2024-08-23T15:06:29 IST" duration-ms="19208">
+  <suite started-at="2024-08-23T15:46:49 IST" name="Suite" finished-at="2024-08-23T15:46:50 IST" duration-ms="89">
     <groups>
+      <group name="Yellow">
+        <method signature="TestNGGroupxml.Yellow1()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" name="Yellow1" class="com.seleniumwebdriver.TestNGGroupxml"/>
+        <method signature="TestNGGroupxml.Yellow2()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" name="Yellow2" class="com.seleniumwebdriver.TestNGGroupxml"/>
+        <method signature="TestNGGroupxml.Yellow3()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" name="Yellow3" class="com.seleniumwebdriver.TestNGGroupxml"/>
+        <method signature="TestNGGroupxml.YellowandOrange()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" name="YellowandOrange" class="com.seleniumwebdriver.TestNGGroupxml"/>
+      </group> <!-- Yellow -->
+      <group name="Orange">
+        <method signature="TestNGGroupxml.YellowandOrange()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" name="YellowandOrange" class="com.seleniumwebdriver.TestNGGroupxml"/>
+      </group> <!-- Orange -->
     </groups>
-    <test started-at="2024-08-23T15:06:10 IST" name="Default test" finished-at="2024-08-23T15:06:29 IST" duration-ms="19208">
-      <class name="com.seleniumwebdriver.TestNGFaceBookLogin">
-        <test-method is-config="true" signature="before()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:10 IST" name="before" finished-at="2024-08-23T15:06:16 IST" duration-ms="6346" status="PASS">
+    <test started-at="2024-08-23T15:46:49 IST" name="Test" finished-at="2024-08-23T15:46:50 IST" duration-ms="89">
+      <class name="com.seleniumwebdriver.TestNGGroupxml">
+        <test-method signature="Yellow1()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" started-at="2024-08-23T15:46:50 IST" name="Yellow1" finished-at="2024-08-23T15:46:50 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method signature="login()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:16 IST" name="login" finished-at="2024-08-23T15:06:23 IST" duration-ms="7167" status="PASS">
+        </test-method> <!-- Yellow1 -->
+        <test-method signature="Yellow2()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" started-at="2024-08-23T15:46:50 IST" name="Yellow2" finished-at="2024-08-23T15:46:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="password()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:23 IST" name="password" finished-at="2024-08-23T15:06:24 IST" duration-ms="1175" status="PASS">
+        </test-method> <!-- Yellow2 -->
+        <test-method signature="Yellow3()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" started-at="2024-08-23T15:46:50 IST" name="Yellow3" finished-at="2024-08-23T15:46:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- password -->
-        <test-method signature="username()[pri:1, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:24 IST" name="username" finished-at="2024-08-23T15:06:27 IST" duration-ms="2216" status="PASS">
+        </test-method> <!-- Yellow3 -->
+        <test-method signature="YellowandOrange()[pri:0, instance:com.seleniumwebdriver.TestNGGroupxml@6a400542]" started-at="2024-08-23T15:46:50 IST" name="YellowandOrange" finished-at="2024-08-23T15:46:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- username -->
-        <test-method is-config="true" signature="after()[pri:0, instance:com.seleniumwebdriver.TestNGFaceBookLogin@1ea9f6af]" started-at="2024-08-23T15:06:27 IST" name="after" finished-at="2024-08-23T15:06:29 IST" duration-ms="2268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.seleniumwebdriver.TestNGFaceBookLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- YellowandOrange -->
+      </class> <!-- com.seleniumwebdriver.TestNGGroupxml -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

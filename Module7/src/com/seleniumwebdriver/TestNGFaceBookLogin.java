@@ -1,11 +1,11 @@
 package com.seleniumwebdriver;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class TestNGFaceBookLogin {
 	WebDriver driver;
@@ -17,18 +17,18 @@ public class TestNGFaceBookLogin {
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);	
 	}
-	@org.testng.annotations.Test(priority = 1)
+	@Test(priority = 1)
 	public void username() throws InterruptedException {
         driver.findElement(By.id("email")).sendKeys("don432@yopmail.com");
         Thread.sleep(2000);
 	}
-	@org.testng.annotations.Test
+	@Test
 	public void password() throws InterruptedException {
         driver.findElement(By.id("pass")).sendKeys("don432");
         Thread.sleep(1000);
 	}
 	
-	@org.testng.annotations.Test
+	@Test
     public void login() throws InterruptedException {
         driver.findElement(By.name("login")).click();
         Thread.sleep(7000);

@@ -17,7 +17,7 @@ public class AssertClass {
 //	@Ignore
 	@Test
 	public void test2() {
-		int a=10, b=20;
+		int a=20, b=20;
 		String s1="ajay";
 		String s2="tops";
 		
@@ -27,9 +27,9 @@ public class AssertClass {
 //	@Ignore
 	@Test
 	public void test3() {
-		String s1="tops";
+		String s1="Tops";
 		String s2="Tops";
-		int a=10, b=10;
+		int a=10, b=20;
 		
 		Assert.assertSame(s1, s2);
 		Assert.assertNotSame(a, b);
@@ -46,11 +46,11 @@ public class AssertClass {
 	@Test
 	public void test5() {
 		int[] a= {1,2,3};
-		int[] b= {1,2};
+		int[] b= {1,2,3};
 		
 		Assert.assertArrayEquals(a, b);
 	}
-	@Ignore
+//	@Ignore
 	@Test
 	public void selfFailed() {
 		fail("self failed by ajay");

@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+
 public class TestNGFaceBookParameter {
 	WebDriver driver;
 	@BeforeTest
@@ -21,7 +22,7 @@ public class TestNGFaceBookParameter {
 	
 		@Test
 		@Parameters({"email","password"})
-		public void f(String email,String password) throws InterruptedException {
+		public void test(String email,String password) throws InterruptedException {
 		driver.findElement(By.id("email")).sendKeys("don432@yopmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.id("pass")).sendKeys("don432");

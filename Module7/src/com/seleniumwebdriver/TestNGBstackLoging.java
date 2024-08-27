@@ -22,21 +22,22 @@ public class TestNGBstackLoging {
 		driver.findElement(By.xpath("//*[@id=\"signin\"]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"username\"]/div/div[1]/div[1]")).click();
-		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//div[text()='demouser']")).click();
-		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//*[@id=\"password\"]/div/div[1]/div[1]")).click();
-		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//div[text()='testingisfun99']")).click();
-		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("/html/body/div/div[2]/div/form/div[2]/button")).click();
-		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//*[@id=\"logout\"]")).click();
+		Thread.sleep(2000);
 	}
 	@AfterTest
 	public void closebroswer() throws InterruptedException {

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertPopUp {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException {		
 //		System.setProperty("webdriver.edge.driver","E:\\Tops 2024\\Selenium\\msedgedriver.exe");
 //		WebDriver driver=new EdgeDriver();
 		System.setProperty("webdriver.chrome.driver","E:\\Tops 2024\\Selenium\\chromedriver.exe");

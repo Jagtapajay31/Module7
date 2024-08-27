@@ -6,7 +6,7 @@
       <class name="com.seleniumwebdriver.TestNGFaceBookParameter">
         <methods>
           <include name="after"/>
-          <include name="f"/>
+          <include name="test"/>
           <include name="before"/>
         </methods>
       </class> <!-- com.seleniumwebdriver.TestNGFaceBookParameter -->
